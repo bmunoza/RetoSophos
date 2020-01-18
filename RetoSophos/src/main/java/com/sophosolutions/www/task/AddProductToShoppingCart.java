@@ -10,9 +10,7 @@ import org.openqa.selenium.ElementNotVisibleException;
 import static com.sophosolutions.www.exceptions.AddProductException.ELEMENT_NO_VISIBLE_FAILED_MESSAGE;
 import static com.sophosolutions.www.userinterfaces.LinioHomePage.SEARCH_BUTTON;
 import static com.sophosolutions.www.userinterfaces.LinioHomePage.SEARCH_FIELD;
-import static com.sophosolutions.www.userinterfaces.SearchResultPage.ADD_TO_CART_BUTTON;
-import static com.sophosolutions.www.userinterfaces.SearchResultPage.GO_TO_CART_BUTTON;
-import static com.sophosolutions.www.userinterfaces.SearchResultPage.PRODUCT_NOTEBOOK_LENOVO;
+import static com.sophosolutions.www.userinterfaces.SearchResultPage.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class AddProductToShoppingCart implements Task {
@@ -31,7 +29,7 @@ public class AddProductToShoppingCart implements Task {
             actor.attemptsTo(Click.on(SEARCH_FIELD),
                     Enter.theValue(nameProduct).into(SEARCH_FIELD),
                     Click.on(SEARCH_BUTTON),
-                    Click.on(PRODUCT_NOTEBOOK_LENOVO),
+                    Click.on(PRODUCT_NINTENDO_SWITCH),
                     Click.on(ADD_TO_CART_BUTTON),
                     Click.on(GO_TO_CART_BUTTON));
         }catch (ElementNotVisibleException e){

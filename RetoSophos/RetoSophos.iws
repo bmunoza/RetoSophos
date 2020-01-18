@@ -2,10 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6ea3ce-e97b-42b6-ba4e-2de5637aa1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetoSophos.proyectos.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RetoSophos.proyectos.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/consult_users.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetoSophos.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetoSophos.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/exceptions/OpenTheBrowserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/models/ProductName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/questions/TheProductName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/task/AddProductToShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/task/OpenTheBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/userinterfaces/LinioHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/userinterfaces/SearchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/userinterfaces/ShoppingCartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/I#20as#20a#20user#20of#20linio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.sophosolutions.www.runners.ShoppingCart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.sophosolutions.www.runners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-I#20as#20a#20user#20of#20linio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.sophosolutions.www.runners.ShoppingCart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01158029bb4089454bff16c629d8ace5028a36f5772f2965478d618b732dc177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/038f3dd0938aed8c5f9a33b8c518d1377e1ed20b5ccc1fdd4d969dc8f8461c1a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/04f5374e8c56105e770ec65efd9d77708ca48c121595fadc0c6228d931c505bf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/05d548343f6dbeed76c004af0549cb66930f99e47d26514964c72525d9b9da3e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/089fa1a2559213ce00636954d7ea06f7121f61a0beaeca8a0ed9c7e6b78e961b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b4d73afd73439fc817854440a498e63ff65cfc334404542c2bad3a2db0328df.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ccaf5148189f82b9c7f0bebed0dbec33ee7977a5063a4a588fac5a80a21354e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0de4ad13838cdea6d55774c83fea4d23178ff509ad926f54e4ed97cce2bea908.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/14c5828fb20375cd053843ee9fdc658aa8406a0866bea4ce3f64aa4e5da56598.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/153f05781bd863c420a5ce57812b9746fe9761d88ab402f2e9f8903652bdee48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/19509d90da31e16b2d41aea42a8d0db26a867df92911c9553338054305ef7dba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1a8b7ee2115d9dac96461de12ecc7ee7bb6ac32907d906d72066cec1618988fe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d1d4742c6bbb7f0e710e2bc20cc3dd6210f2b98ba7275be7609ea27aee4870e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d88bf847af001051958a04ae50bcc61366fedbd51bdc411e63ac67cfcab7a76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1e6ce11e6f876142224a50f5b6faa562f2b4192a086531577a0fd6883456b02e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/203df7af3decce05b29d6ff861e3ea942f7b0f46b87d9a80346adb4388185b39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/20a5358f0c1cbef394ac64d881e84aa478b2ba89edc50b1200fa6ff5e692a9d0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2170e22a28f18aee33ea672014a4cc9636916ad842b9bd820dd09c4e3cddfd45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2220d7218300fe90e7a31eaddb9772121ec59c14d53fb9d8e8d2e9d37ca5c2ff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/25b7567c59e9d1cbb0c85445933f2650481364bf18c2fb544dc3f5d08ff10275.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/29d35ee29ff9619da5bd0052cf530d380fa68633286da78f14b71c34a8f8ee34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/30d4529b15d1b1cca232144b00ff023a730f8a383f96992c7faa1a9427604f38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/34989280927b0afabc517600004045c3fcc302cdd154cf28c1cf478cd4ee3dd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/368570c2026f9ac500caa4fc4d88dc2d5eb1d16213e746e24b9859b68c7929dc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/398bb6eba9f1a8f5ab77f493d3251941ccce37d31e352367481d294646a5116c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3b224e0f521d857cf7bfbd50f354d04f0087d86b55d784f053edbb63e26687f5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3b58e6bc9fda88497979605e2ec9438c37e4457c5318a37ebe0ba25703d592d0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3c5a689e7b20a05ff368a006472c46d05021202c0dfa252c07ab42f444f8bee9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3e5385b4fdda13400eec5315ca311abb52bdcad9f8b4d13d7908a8a782ac6206.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3f118f744395bc696ccde5823f59b12b965ac267006a3e1faded7444ee1da993.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/416db9a181bb148e603d135489f8af7f11c45c4e7d6583b769f2b7cce2609610.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4372896975eabd0a2b0f73447ebac609ba06be585986be713ae059a5133a1752.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/458f9733f9d0fb8efa27dd2f7f75f15ae8736744c65d4d8082618ecfd042e912.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/468c62d21c8ffc18b1911a5b410e4202135a4868580be267094ace0865202bf1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f15220688d5fad65018f6d45031606da932580abc6cf09c3baada27780305d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4fa29af2d3efc38c8db2b3695bebd5e9b3400fa3f5cb0581191f5e88c8ea4fce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/515c4b540560643919ea810d8b9e4b1995ee1191af07593d7055c199a27c1fad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5693f47dcb4a8fcf3bdd78cf2facfe2c827d324638ad29f5d9e109f4ffddb5ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5c51252069cb0a314003192f4ff8275a0fc95f8309cfd5c5715a7d0911bc9091.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5d81cfae6ff6c3f9edebb01f67229632710266f389f1228ed9c05dcb903fb01f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5fda0fed07067cd830a9e51ab9327c1c5d60443ea1733725edd7b83149d6ab99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/605357fbab30e4141209f16bf9a4fe380a6f1e1eb34783fd57cb284e000431a3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/616f6301e10ca432c5d4f167f89f5704c70f5cb52ea9cd65aacf48de41706ed8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/694b1cb662758ba5cdca87e3286cace10366b67a7b567c31a0724145266f822d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6a9f1bed01c999b3cf60fbb38d62a4a3020ddf93b179678a27aeff41dd24ad09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ab1c857ed441673f330312a04572d5bcf832c173c3350b1eeecbdf373e74ca5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6b250b26915fcaf0613a2a4544039d9e3e929fd6bd3cc15a7d93a8e845621461.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6cc98b55c933a790463bc340f4aa679f2667e83d66a905d5ab0e184bdc991e37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/74041664295751ad07ff4f1a0f55f230ff361aaa6116c080046f17a9a44f3b86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/75ff6e403ef5189a0d956a87570ed98fb1bdf7d239d0aba253a1591b3fb7b12b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/773674dc6c77117b2987aeecbe847ec21c7c011da99d43ce836a29e033e618e7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7847f1400041de042bf50e42a98a5b4c69f827c560e962cb5a5d5510a10344df.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7e83ec810cfaea9f6df0b703368a49aec5e958f79c1830767f6a77b743a16b59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7f47ae4722734b8bc1e31bb495bef947f2c721d80c69860972912cc74b3ff7fd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/85135e3f7e3622998a48e5d6d58067e31d8e3b0dc0f25540c74e1b413f06e72c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/88dc6cf4fff00e280527bc3e8357aab168da362fcb407323c48e37ebf16ea3f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/895ae88348751984af7c54ff268d89ef8a3d5ba183d9aae38cd3c9e7ce1ea7fd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/89bc906d1a58285d3aa455619386e3ecd9622c009210329a8b62892d8ac5a263.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/93c28a64324d8f9acb4cb10c51000aeec15d70ff130e6af4f09f804128585e66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/976789d645c0f43f5f28726af29da4affc6a4170cded4bc3e5c1a00b45e7c7a4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9997e42cbaeeb048b2d1fd749697faa34fe772de3b90e9d452877350416cbd1f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/99d014a11c07a6e8ee3f2db418c91fa8a3762c451338d149a0ac8f39041ed5b4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9aa941cce45f7ae676c6a5daaddc716f87c6344e49bd19d4a0f13933420ed617.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9b1e9b67d10afa67c02f59c16900f4d7c1fe3ac516b97ae867b7a820375af629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9d82ea42e91b85a651aa3a0de1e8639d99ce557fc976939b369e8ed84580dbae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a2a11ad63b4bec162da66cebb80fdd0ab723a92068e212b3faa176d222c3eb91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a540568f493c8b7cc619e1db696e94d2037e37bcdc215ad4d23464c18da37261.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a5fd4a217342cb860e19756437a53082d915252d76782a134801e84cd2ac0619.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a87c1059b789e004d1ef35c046e206afffd08b37a229ad0a4b640ec55f3826b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/aa43f84ff89b00e158a63e0b199c0fd9706c474e37215d0262b71ba35ea2d4ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b2f9bc15d809d5be3c6b5691e9d426c625429961d95bc08e1e97b7e335d7b7cf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b312ab7e3380f0700744ff9230a54ffc76f2b5e66204439f616fb6aa74f15066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b3d5c16ad92f3b53ebc2205cf47463b1b756336c874da67962941190da50cc0f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b66d6c727f00a1f3c22fc2cc77b61a66c6d6e710a02a7215696fbcddee84170e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/be1123b3e69b94cec47f3c0120a805b8899d3ad05ff01feba9ff5ad83c4faa54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf1c7e6586e0b7a573a8bd218dbce62aaedb29c7670a1cf1e25cfdcefcb6e4e8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2b6113e5f3d2a51774a63bea151c6f49782539fda8b76836453ed9306207ec0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c40582684955becd2a13b7baa4dbeeaf5c10fd757fdabf0c4a18752a7eebd812.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c4426513c565ed2c9290cb898cab87e6e892383d76c52440e09a60b3473e8d8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c4cbb19404403eaf25d1950eff44a9d9746ca0dee999528f09ecbba620ddefda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c7c23935e29844914aea44922aa7e7e78bc72e2f82ad2106000b37621c7e1618.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c974c093ffbcb0d0a00a5e05c21a1bfad2e042c77ee423f60185ea73fe69cc74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9d43f536d437ce5bd9e00065bb847dfc6185e3a63ef8421c022de174367b6b4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/cbe3894a45da652188342e8614a9bcc0bda5ff5ef7275276800cd4ea70f1a91b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ce822a0de824d8ac3d25f7ba24060805e7391d1a5196a8df15bf768162724635.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d0641e9e9171cfa69240e167ada3ec44e824da0c960ef76bdbb534f2162ef0b6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d5c12320d32c95e51654542aca85a804ed8c8f2a85acb99f0614d2fc72d591fe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d605226bf13b940fc17dee3e8f2d055c17615b1a58fd9d2bf634e98327caeda7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d95626c745cf5a7d0fafe619c29722075ffbb082633eca3e84464236cf6ed83c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da14a950a65c8e14effb889335324a84a4fbad15029d4c31645843be40cd87f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da91342786761ec357376993dcfc2fe730a28facc3a06c3b8f65135b2e599d56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dbd3cbd272aed7b299553ebaa7d7b9944f235ecb1c6c7e8080f97209dabf79d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dd439f9bef547945a790c28d471d8d6d5cd333d5ee3a3f3b98f60fa57da384f1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e52cb8f7ec6e1d733994db58095ba3926db4a30290ad85324ecb53029da9eb04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e54ba82cd368520ad22708745e4c1c6035500b744fc77ba2d135c02240d5b8fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e58661d0e5cac5c7e7083fdf2d6fc11f1d8a56caaa44ab7c0fae8caead85ba7d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e9434ade2931d1f5d1f56dc79e31f1012275a172280335632bc211e99f336128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb74852af73a36e305325e7a2c3053317b371ae90c90b3ca85f7a77e60c47b2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ebfa82bf795b12c74c6613199d01e43fcae75afa6f3d2b7446bb1170d0c6843e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ebffeefaa95adea0878453c90ef131716660cc1bf749097f28ac3364a9a241b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eef5ac7603333a88d452130d490eec51e3544e05423962b94fd35df2bc1f9cb0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ef1df68f18a0aca6f31d95dfe6ad039673958564877f25ed61b46f1b20a3b70e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ef394208d28eeae790c49cb545843514a66758998ab10d07e9e6ad0ca6e554f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efd00f7ef7ed748166d247ecffc68b93c7e138b1310b9059491ee251800b10cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f158328ec5f6e4c4accc8a703f2863d22e3b5ab7b2144d5b615a80301ad311aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f2b165f1305ef229b2fbb016f7779ffb2143de578da95550a424a030f4c495c0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f482f4b7ca0725585f5bada8ed7b9dccf23475827f08973b761ec3c63410405f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fbf151c6038dc357805d96eac65a188a590253b160f3566cf14a26103cc567bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ffa1d9754bae7c0c7f323522a59f9a63602b073f8dce99ad0b7b7dfd61635b2f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2782841205045401695.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2954069894128519998.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3534503084818303482.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource3978719310676658163.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7940102413462419012.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource871865521924378373.html.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,13 +186,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyectos" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyectos" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyectos" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="serenity bdd" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="43">
+              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +232,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.3.0/c1d1d3b1604f6681e955e2edea8af9a4cc4f1f33/rest-assured-3.3.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="334" column="61" selection-start-line="334" selection-start-column="7" selection-end-line="334" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/questions/ResponseConsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,38 +253,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.3.0/c1d1d3b1604f6681e955e2edea8af9a4cc4f1f33/rest-assured-3.3.0-sources.jar!/io/restassured/response/Validatable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/questions/LastResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,55 +273,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="-163">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/shopping_cart.feature">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="172">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Get.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="272">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/interactions/RestInteraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="318">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,19 +341,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/features/shopping_cart.feature" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java" />
-        <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/questions/TheProductName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" />
       </list>
     </option>
   </component>
@@ -195,110 +376,164 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="userinterfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RetoSophos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-rest-assured:2.0.80" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-rest-assured:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-rest-assured-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-rest-assured:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-rest-assured-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-rest-assured:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-rest-assured-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay:2.0.9" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay:2.0.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-2.0.9.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay:2.0.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-2.0.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="screenplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay:2.0.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-2.0.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="screenplay" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay-rest:2.0.80" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay-rest:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-rest-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay-rest:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-rest-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RetoSophos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.serenity-bdd:serenity-screenplay-rest:2.0.80" type="70bed36:NamedLibraryElementNode" />
+              <item name="serenity-screenplay-rest-2.0.80.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="abilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -306,15 +541,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brayan.munoz\Downloads\MundoPC\MundoPC\RetoSophos\src\test\resources\features" />
+      <recent name="C:\Users\brayan.munoz\Downloads\MundoPC\MundoPC\RetoSophos\src\test\java\com\sophosolutions\www\runners" />
+      <recent name="C:\Users\brayan.munoz\Downloads\MundoPC\MundoPC\RetoSophos\src\test\java\com\sophosolutions\www\stepdefinitions" />
       <recent name="C:\Users\brayan.munoz\Downloads\MundoPC\MundoPC\RetoSophos" />
     </key>
   </component>
@@ -331,6 +570,45 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ShoppingCart">
+    <configuration name="ConsultUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sophosolutions.www.runners.ConsultUsers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RetoSophos [aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="aggregate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ShoppingCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -350,6 +628,18 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="ConsultUsers" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="proyectos.test" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <option name="PACKAGE_NAME" value="com.sophosolutions.www.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.sophosolutions.www.runners.ConsultUsers" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ShoppingCart" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="proyectos.test" />
@@ -377,10 +667,15 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.ShoppingCart" />
+      <item itemvalue="Gradle.RetoSophos [aggregate]" />
+      <item itemvalue="Gradle.ConsultUsers" />
+      <item itemvalue="JUnit.ConsultUsers" />
       <item itemvalue="JUnit.ShoppingCart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConsultUsers" />
+        <item itemvalue="Gradle.RetoSophos [aggregate]" />
         <item itemvalue="Gradle.ShoppingCart" />
       </list>
     </recent_temporary>
@@ -396,23 +691,12 @@
       <option name="presentableId" value="Default" />
       <updated>1579313145999</updated>
       <workItem from="1579313147634" duration="15081000" />
-      <workItem from="1579363759700" duration="2654000" />
+      <workItem from="1579363759700" duration="7308000" />
+      <workItem from="1579378895755" duration="1587000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCart - 2020.01.17 at 23h 40m 01s.xml">
-      <configuration name="ShoppingCart" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShoppingCart - 2020.01.17 at 23h 46m 33s.xml">
-      <configuration name="ShoppingCart" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShoppingCart - 2020.01.18 at 09h 30m 20s.xml">
-      <configuration name="ShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCart - 2020.01.18 at 10h 13m 02s.xml">
-      <configuration name="ShoppingCart" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCart - 2020.01.18 at 10h 14m 41s.xml">
       <configuration name="ShoppingCart" configurationId="JUnit" />
     </history-entry>
@@ -431,44 +715,55 @@
     <history-entry file="ShoppingCart - 2020.01.18 at 11h 41m 48s.xml">
       <configuration name="ShoppingCart" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 11h 56m 22s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 12h 06m 17s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 12h 07m 35s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 12h 23m 36s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17735000" />
+    <option name="totallyTimeSpent" value="23976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25141472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39361703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33510637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -483,16 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,30 +814,6 @@
         <state relative-caret-position="-1989" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/questions/TheProductName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/shopping_cart.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -560,82 +821,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/site/serenity/apple-icon-57x57.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="272">
           <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="e#737#738#0" expanded="true" />
@@ -646,8 +837,183 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/questions/TheProductName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-rest-assured/2.0.80/b1d3186f24af83885f0a3d7fc54655e1f3ca407a/serenity-rest-assured-2.0.80-sources.jar!/net/serenitybdd/rest/SerenityRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_users.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/interactions/RestInteraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.3.0/c1d1d3b1604f6681e955e2edea8af9a4cc4f1f33/rest-assured-3.3.0-sources.jar!/io/restassured/response/Validatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/questions/LastResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.80/42865f89051f1c8d5e48ba2ca64c070241b261e3/serenity-screenplay-rest-2.0.80-sources.jar!/net/serenitybdd/screenplay/rest/questions/ResponseConsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.3.0/c1d1d3b1604f6681e955e2edea8af9a4cc4f1f33/rest-assured-3.3.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="334" column="61" selection-start-line="334" selection-start-column="7" selection-end-line="334" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

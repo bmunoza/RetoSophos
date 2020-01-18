@@ -10,8 +10,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import static com.sophosolutions.www.models.ProductName.LENOVO_COMPUTER;
-import static com.sophosolutions.www.userinterfaces.ShoppingCartPage.LENOVO_PRODUCT_NAME;
+import static com.sophosolutions.www.models.ProductName.NINTENDO_SWITCH;
+import static com.sophosolutions.www.userinterfaces.ShoppingCartPage.NINTENDO_SWITCH_PRODUCT_NAME;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -33,11 +33,11 @@ public class ShoppingCartStepDefinitions {
 
     @When("^he add a product to the shopping cart$")
     public void heAddAProductToTheShoppingCart() {
-        theActorInTheSpotlight().attemptsTo(AddProductToShoppingCart.withTheName(LENOVO_COMPUTER.getName()));
+        theActorInTheSpotlight().attemptsTo(AddProductToShoppingCart.withTheName(NINTENDO_SWITCH.getName()));
     }
 
     @Then("^he should see that the product was added successfully$")
     public void heShouldSeeThatTheProductWasAddedSuccessfully() {
-        theActorInTheSpotlight().should(seeThat(TheProductName.is(LENOVO_PRODUCT_NAME),equalTo(LENOVO_COMPUTER.getName())));
+        theActorInTheSpotlight().should(seeThat(TheProductName.is(NINTENDO_SWITCH_PRODUCT_NAME),equalTo(NINTENDO_SWITCH.getName())));
     }
 }
