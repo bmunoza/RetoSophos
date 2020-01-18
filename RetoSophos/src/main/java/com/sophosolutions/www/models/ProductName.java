@@ -2,7 +2,7 @@ package com.sophosolutions.www.models;
 
 public enum ProductName {
 
-    LENOVO_COMPUTER("Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA");
+    LENOVO_COMPUTER("Nintendo Switch 2019 Neon Bateria Extendida + Super Smash Bro Ultimate");
 
     private String name;
 

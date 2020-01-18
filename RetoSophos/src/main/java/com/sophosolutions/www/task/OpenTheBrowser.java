@@ -1,14 +1,13 @@
 package com.sophosolutions.www.task;
 
+import com.sophosolutions.www.exceptions.OpenTheBrowserException;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.webdriver.UnsupportedDriverException;
 
-import static com.sophosolutions.www.userinterfaces.LinioHomePage.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class OpenTheBrowser implements Task {
@@ -18,10 +17,15 @@ public class OpenTheBrowser implements Task {
     public OpenTheBrowser(PageObject page){
         this.page = page;
     }
+    
     @Override
     @Step("{0} opens the browser on linio home page")
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.browserOn(page));
+        try {
+            actor.attemptsTo(Open.browserOn(page));
+        }catch (UnsupportedDriverException e){
+            throw new OpenTheBrowserException(OpenTheBrowserException.DRIVER_FAILED_MESSAGE,e);
+        }
     }
 
     public static OpenTheBrowser on( PageObject page){
