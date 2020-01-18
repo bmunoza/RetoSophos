@@ -1,5 +1,6 @@
 package com.sophosolutions.www.stepdefinitions;
 
+import com.sophosolutions.www.questions.TheProductName;
 import com.sophosolutions.www.task.AddProductToShoppingCart;
 import com.sophosolutions.www.task.OpenTheBrowser;
 import com.sophosolutions.www.userinterfaces.LinioHomePage;
@@ -9,10 +10,12 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
 import static com.sophosolutions.www.models.ProductName.LENOVO_COMPUTER;
+import static com.sophosolutions.www.userinterfaces.ShoppingCartPage.LENOVO_PRODUCT_NAME;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static org.hamcrest.Matchers.equalTo;
 
 public class ShoppingCartStepDefinitions {
 
@@ -35,5 +38,6 @@ public class ShoppingCartStepDefinitions {
 
     @Then("^he should see that the product was added successfully$")
     public void heShouldSeeThatTheProductWasAddedSuccessfully() {
+        theActorInTheSpotlight().should(seeThat(TheProductName.is(LENOVO_PRODUCT_NAME),equalTo(LENOVO_COMPUTER.getName())));
     }
 }

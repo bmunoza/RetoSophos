@@ -5,7 +5,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.thucydides.core.annotations.Step;
-import static com.sophosolutions.www.userinterfaces.LinioHomePage.*;
+import static com.sophosolutions.www.userinterfaces.LinioHomePage.SEARCH_BUTTON;
+import static com.sophosolutions.www.userinterfaces.LinioHomePage.SEARCH_FIELD;
+import static com.sophosolutions.www.userinterfaces.SearchResultPage.ADD_TO_CART_BUTTON;
+import static com.sophosolutions.www.userinterfaces.SearchResultPage.GO_TO_CART_BUTTON;
+import static com.sophosolutions.www.userinterfaces.SearchResultPage.PRODUCT_NOTEBOOK_LENOVO;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class AddProductToShoppingCart implements Task {

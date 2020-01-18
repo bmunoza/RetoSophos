@@ -129,7 +129,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2020 09:29</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2020 10:13</span>
     <br style="clear:left"/>
 </div>
 
@@ -165,9 +165,9 @@ for place an order
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Add a product to the shopping cart and validate that it is added correctly
+                                <span class="failing-color">Add a product to the shopping cart and validate that it is added correctly
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -184,27 +184,69 @@ for place an order
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA' but: was 'Notebook Lenovo IdeaPad L340 Gaming, 15.6\', Intel Core I5-9300H 2.4GHz, 8GB DDR4, 1TB SATA'</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sophosolutions.www.stepdefinitions.ShoppingCartStepDefinitions.heShouldSeeThatTheProductWasAddedSuccessfully(ShoppingCartStepDefinitions.java:41)<br />✽.he should see that the product was added successfully(src/test/resources/features/shopping_cart.feature:8)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource871865521924378373.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="b2f9bc15d809d5be3c6b5691e9d426c625429961d95bc08e1e97b7e335d7b7cf.png" title="Given that Brayan is on the linio website" width="1920"/>
-                <img src="dbd3cbd272aed7b299553ebaa7d7b9944f235ecb1c6c7e8080f97209dabf79d3.png" title="Brayan opens the browser on linio home page" width="1920"/>
-                <img src="b2f9bc15d809d5be3c6b5691e9d426c625429961d95bc08e1e97b7e335d7b7cf.png" title="Brayan opens the Linio home page" width="1920"/>
-                <img src="4372896975eabd0a2b0f73447ebac609ba06be585986be713ae059a5133a1752.png" title="When he add a product to the shopping cart" width="1920"/>
-                <img src="dbd3cbd272aed7b299553ebaa7d7b9944f235ecb1c6c7e8080f97209dabf79d3.png" title="Brayan add a product to shopping cart on linio website" width="1920"/>
-                <img src="4fa29af2d3efc38c8db2b3695bebd5e9b3400fa3f5cb0581191f5e88c8ea4fce.png" title="Brayan add a product to shopping cart on linio website" width="1920"/>
-                <img src="1a8b7ee2115d9dac96461de12ecc7ee7bb6ac32907d906d72066cec1618988fe.png" title="Brayan clicks on search text field in linio home page" width="1920"/>
-                <img src="3b58e6bc9fda88497979605e2ec9438c37e4457c5318a37ebe0ba25703d592d0.png" title="Brayan enters 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA' into search text field in linio home page" width="1920"/>
-                <img src="c40582684955becd2a13b7baa4dbeeaf5c10fd757fdabf0c4a18752a7eebd812.png" title="Brayan enters 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA' into search text field in linio home page" width="1920"/>
-                <img src="2170e22a28f18aee33ea672014a4cc9636916ad842b9bd820dd09c4e3cddfd45.png" title="Brayan clicks on search button in linio home page" width="1920"/>
+                <img src="dbd3cbd272aed7b299553ebaa7d7b9944f235ecb1c6c7e8080f97209dabf79d3.png" title="Given that Brayan is on the linio website" width="1920"/>
+                <img src="b2f9bc15d809d5be3c6b5691e9d426c625429961d95bc08e1e97b7e335d7b7cf.png" title="Brayan opens the browser on linio home page" width="1920"/>
+                <img src="dbd3cbd272aed7b299553ebaa7d7b9944f235ecb1c6c7e8080f97209dabf79d3.png" title="Brayan opens the Linio home page" width="1920"/>
+                <img src="b2f9bc15d809d5be3c6b5691e9d426c625429961d95bc08e1e97b7e335d7b7cf.png" title="When he add a product to the shopping cart" width="1920"/>
+                <img src="203df7af3decce05b29d6ff861e3ea942f7b0f46b87d9a80346adb4388185b39.png" title="When he add a product to the shopping cart" width="1920"/>
+                <img src="04f5374e8c56105e770ec65efd9d77708ca48c121595fadc0c6228d931c505bf.png" title="Brayan add a product to shopping cart on linio website" width="1920"/>
+                <img src="7e83ec810cfaea9f6df0b703368a49aec5e958f79c1830767f6a77b743a16b59.png" title="Brayan add a product to shopping cart on linio website" width="1920"/>
+                <img src="153f05781bd863c420a5ce57812b9746fe9761d88ab402f2e9f8903652bdee48.png" title="Brayan clicks on search text field in linio home page" width="1920"/>
+                <img src="ffa1d9754bae7c0c7f323522a59f9a63602b073f8dce99ad0b7b7dfd61635b2f.png" title="Brayan clicks on search text field in linio home page" width="1920"/>
+                <img src="773674dc6c77117b2987aeecbe847ec21c7c011da99d43ce836a29e033e618e7.png" title="Brayan enters 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA' into search text field in linio home page" width="1920"/>
+                <img src="c4cbb19404403eaf25d1950eff44a9d9746ca0dee999528f09ecbba620ddefda.png" title="Brayan enters 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA' into search text field in linio home page" width="1920"/>
+                <img src="c4cbb19404403eaf25d1950eff44a9d9746ca0dee999528f09ecbba620ddefda.png" title="Brayan clicks on search button in linio home page" width="1920"/>
                 <img src="5c51252069cb0a314003192f4ff8275a0fc95f8309cfd5c5715a7d0911bc9091.png" title="Brayan clicks on search button in linio home page" width="1920"/>
-                <img src="5693f47dcb4a8fcf3bdd78cf2facfe2c827d324638ad29f5d9e109f4ffddb5ae.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="5d81cfae6ff6c3f9edebb01f67229632710266f389f1228ed9c05dcb903fb01f.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="19509d90da31e16b2d41aea42a8d0db26a867df92911c9553338054305ef7dba.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="88dc6cf4fff00e280527bc3e8357aab168da362fcb407323c48e37ebf16ea3f2.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="29d35ee29ff9619da5bd0052cf530d380fa68633286da78f14b71c34a8f8ee34.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="458f9733f9d0fb8efa27dd2f7f75f15ae8736744c65d4d8082618ecfd042e912.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
-                <img src="9b1e9b67d10afa67c02f59c16900f4d7c1fe3ac516b97ae867b7a820375af629.png" title="Then he should see that the product was added successfully" width="1920"/>
-                <img src="eef5ac7603333a88d452130d490eec51e3544e05423962b94fd35df2bc1f9cb0.png" title="Then he should see that the product was added successfully: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="5c51252069cb0a314003192f4ff8275a0fc95f8309cfd5c5715a7d0911bc9091.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="05d548343f6dbeed76c004af0549cb66930f99e47d26514964c72525d9b9da3e.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="e9434ade2931d1f5d1f56dc79e31f1012275a172280335632bc211e99f336128.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="3f118f744395bc696ccde5823f59b12b965ac267006a3e1faded7444ee1da993.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="75ff6e403ef5189a0d956a87570ed98fb1bdf7d239d0aba253a1591b3fb7b12b.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="e58661d0e5cac5c7e7083fdf2d6fc11f1d8a56caaa44ab7c0fae8caead85ba7d.png" title="Brayan clicks on product link notebook lenovo in linio " width="1920"/>
+                <img src="b3d5c16ad92f3b53ebc2205cf47463b1b756336c874da67962941190da50cc0f.png" title="Then he should see that the product was added successfully" width="1920"/>
+                <img src="b3d5c16ad92f3b53ebc2205cf47463b1b756336c874da67962941190da50cc0f.png" title="Then the product name should be 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA'" width="1920"/>
+                <img src="eef5ac7603333a88d452130d490eec51e3544e05423962b94fd35df2bc1f9cb0.png" title="Then the product name should be 'Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA': <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 
