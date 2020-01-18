@@ -14,8 +14,6 @@ public class LinioHomePage extends PageObject {
     public static final Target SEARCH_BUTTON = Target.the("search button in linio home page")
             .located(By.xpath("//button[@class='btn btn-primary btn-search']"));
 
-    public static final Target PRODUCT_NOTEBOOK_LENOVO = Target.the("product link notebook lenovo in linio ")
-            .located(By.xpath("//span[@class='title-section']"));
 
     public static final Target ADD_TO_CART_BUTTON = Target.the("product link notebook lenovo in linio ")
             .located(By.xpath("//div[@class='product-bg-container product-general-info variation-info']//button[1]"));

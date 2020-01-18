@@ -9,6 +9,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+
+import static com.sophosolutions.www.models.ProductName.LENOVO_COMPUTER;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -28,7 +30,7 @@ public class ShoppingCartStepDefinitions {
 
     @When("^he add a product to the shopping cart$")
     public void heAddAProductToTheShoppingCart() {
-        theActorInTheSpotlight().attemptsTo(AddProductToShoppingCart.withTheName("Notebook Lenovo IdeaPad L340 Gaming, 15.6, Intel Core i5-9300H 2.4GHz, 8GB DDR4, 1TB SATA"));
+        theActorInTheSpotlight().attemptsTo(AddProductToShoppingCart.withTheName(LENOVO_COMPUTER.getName()));
     }
 
     @Then("^he should see that the product was added successfully$")
