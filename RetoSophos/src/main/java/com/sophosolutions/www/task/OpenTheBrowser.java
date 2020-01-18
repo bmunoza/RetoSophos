@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.webdriver.UnsupportedDriverException;
 
+import static com.sophosolutions.www.exceptions.OpenTheBrowserException.DRIVER_FAILED_MESSAGE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class OpenTheBrowser implements Task {
@@ -24,7 +25,7 @@ public class OpenTheBrowser implements Task {
         try {
             actor.attemptsTo(Open.browserOn(page));
         }catch (UnsupportedDriverException e){
-            throw new OpenTheBrowserException(OpenTheBrowserException.DRIVER_FAILED_MESSAGE,e);
+            throw new OpenTheBrowserException(DRIVER_FAILED_MESSAGE,e);
         }
     }
 

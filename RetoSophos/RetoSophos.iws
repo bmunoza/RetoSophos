@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6ea3ce-e97b-42b6-ba4e-2de5637aa1ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoSophos.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/models/ProductName.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/models/ProductName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/task/OpenTheBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/task/OpenTheBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/userinterfaces/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/sophosolutions/www/userinterfaces/ShoppingCartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,20 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#234#235#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -108,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -130,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="260">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="e#737#738#0" expanded="true" />
                 <element signature="e#799#800#0" expanded="true" />
@@ -173,15 +166,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/questions/TheProductName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
       </list>
     </option>
   </component>
@@ -403,7 +396,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579313145999</updated>
       <workItem from="1579313147634" duration="15081000" />
-      <workItem from="1579363759700" duration="2237000" />
+      <workItem from="1579363759700" duration="2654000" />
     </task>
     <servers />
   </component>
@@ -440,13 +433,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17318000" />
+    <option name="totallyTimeSpent" value="17735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -456,7 +449,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39361703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39361703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,28 +594,6 @@
     <entry file="file://$PROJECT_DIR$/target/site/serenity/apple-icon-57x57.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -640,20 +611,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
