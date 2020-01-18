@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6ea3ce-e97b-42b6-ba4e-2de5637aa1ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/RetoSophos.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="30" column="172" selection-start-line="30" selection-start-column="172" selection-end-line="30" selection-end-column="172" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
@@ -76,12 +77,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="168">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
               </folding>
@@ -89,11 +92,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="100">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,6 +145,7 @@
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
       </list>
     </option>
@@ -327,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579313145999</updated>
-      <workItem from="1579313147634" duration="10228000" />
+      <workItem from="1579313147634" duration="10633000" />
     </task>
     <servers />
   </component>
@@ -364,7 +373,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10228000" />
+    <option name="totallyTimeSpent" value="10633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -491,26 +500,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="168">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
           </folding>
@@ -519,8 +518,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="100">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="172" selection-start-line="30" selection-start-column="172" selection-end-line="30" selection-end-column="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
