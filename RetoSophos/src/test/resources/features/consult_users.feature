@@ -3,4 +3,4 @@ Feature: Consult users
 
   Scenario: Consult users
     When Pepito consults a user's name
-    Then he should see that the full name is Mafalda Pacocha
+    Then he should see that the full name is Annetta Weber
