@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="I as a user of linio" skipped="0" tests="1" time="58.69" timestamp="2020-01-18 10:52:49"><testcase name="Add a product to the shopping cart and validate that it is added correctly"/></testsuite>
