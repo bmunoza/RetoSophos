@@ -13,6 +13,7 @@
 ### Instalación 
 - Para clonar este repositorio localmente, se debe ejecutar el siguiente comando: 
 ```git clone```
+```https://github.com/bymunoz1234/RetoSophos.git```
 - Importar el proyecto desde Eclipse o IntelliJ IDE bajo la estructura de un proyecto Gradle existente 
 - Configurar JRE System Library con JavaSE-1.8
 - Configurar la codificación a UTF-8 al proyecto una vez sea importado
