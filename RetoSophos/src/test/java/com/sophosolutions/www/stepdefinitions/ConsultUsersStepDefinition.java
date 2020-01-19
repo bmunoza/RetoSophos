@@ -17,12 +17,17 @@ import net.serenitybdd.screenplay.rest.abiities.CallAnApi;
 
 public class ConsultUsersStepDefinition {
 
+    /* Se le otorgan las habilidades necesarias al Actor para navegar por la web
+      e interactuar con un servicio REST
+    */
     @Before
     public void prepareStage() {
         OnStage.setTheStage(new OnlineCast());
         theActorCalled("Brayan").whoCan(CallAnApi.at(BASE_URL.toString()));
     }
 
+
+    //Se realiza solicitud GET para obtener un recurso REST
     @When("^Pepito consults a user's name$")
     public void pepitoConsultsAUserSName() {
         theActorInTheSpotlight().attemptsTo(ConsultTheUser.withTheData(CONSULT_USER.toString()));
@@ -31,12 +36,15 @@ public class ConsultUsersStepDefinition {
     @Then("^he should see that the full name is (.*) (.*)$")
     public void heShouldSeeThatTheFullNameIsMafaldaPacocha(String firstName,String lastName) {
 
+        //¿La llamada devolvió un código de estado de 200(solicitud exitosa)?
         theActorInTheSpotlight().should(seeThatResponse(response -> response.statusCode(200)));
 
+        //¿El nombre del usuario consultado es 'Mafalda'?
         theActorInTheSpotlight().should(seeThatResponse(
                 response -> response
                         .body("result.first_name", equalTo(firstName))));
 
+        //¿El apellido del usuario consultado es 'Pacocha'?
         theActorInTheSpotlight().should(seeThatResponse(
                 response -> response
                         .body("result.last_name",equalTo(lastName))));

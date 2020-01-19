@@ -22,6 +22,12 @@ public class AddProductToShoppingCart implements Task {
     }
 
 
+    /*
+       Realiza el proceso de:
+       1.Buscar producto
+       2.selecionarlo
+       3.agregar al carrito de compras
+    */
     @Override
     @Step("{0} add a product to shopping cart on linio website")
     public <T extends Actor> void performAs(T actor) {

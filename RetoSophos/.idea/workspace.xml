@@ -5,44 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77bc996-2c7c-4bee-8d7c-43dcccaca40b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/ConsultTheUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10d9360c476104290a073d673dbc720c679e2f56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45428261fa011ff4315d8c364694da2012f1e2ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50a650d40cbafc78ea62551c5842a1d52fcb32d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88f2bc4468064c35747467c9e7a0c96f01f9455e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9078beb4d48bf0b3d981c2fa32ad1bc54baa2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af6a604abaeb5f808ee45228e287f22305de379e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b535aa41600ef6f3b01a2cd747caa2b2598068c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4b6396725a781162be7b53f8fb5ebef830000dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5bf066be2532abf8fcf33be6b792f14b557fbf9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcdb5c1059c5e52d594f0ae560689329267ad10a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e10eb43d3186b6c4aa1903e14a8d0adccf238116" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4682140c91302afba1eb74ec5c13146bab9265f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoSophos.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoSophos.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetoSophos.proyectos.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RetoSophos.proyectos.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sophosolutions/www/runners/ShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/exceptions/OpenTheBrowserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/exceptions/OpenTheBrowserException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/models/RestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/models/RestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/task/AddProductToShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/task/AddProductToShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/task/OpenTheBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sophosolutions/www/task/OpenTheBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/runners/ConsultUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/runners/ConsultUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consult_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/consult_users.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0519f0921861648881fc39d8f56c53762060355cb9c1fa421d71ce4f4b057704.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dc268a21e5b314a2e1746f8fd3e551a379ae7266dc659a1eee2dbe9bb269a039_screenshots.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -99,63 +86,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay/2.0.9/104c3b1782a604a7cdf25b24dbcfb65e8f6549f9/serenity-screenplay-2.0.9-sources.jar!/net/serenitybdd/screenplay/actors/OnStage.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="374">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_users.feature">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/questions/ResponseConsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/ConsultTheUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Get.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/questions/LastResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="465">
+              <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,38 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="187">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -207,17 +197,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/ConsultTheUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/ConsultTheUser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/consult_users.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
       </list>
     </option>
   </component>
@@ -282,7 +274,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RetoSophos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proyectos" type="b2602c69:ProjectViewProjectNode" />
@@ -363,6 +373,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task" />
@@ -387,7 +398,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCart">
+  <component name="RunManager" selected="JUnit.ConsultUsers">
     <configuration name="ConsultUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectos.test" />
       <shortenClasspath name="CLASSPATH_FILE" />
@@ -448,8 +459,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingCart" />
         <item itemvalue="JUnit.ConsultUsers" />
+        <item itemvalue="JUnit.ShoppingCart" />
         <item itemvalue="Cucumber.js.Scenario: Consult users" />
       </list>
     </recent_temporary>
@@ -464,26 +475,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579383168599</updated>
-      <workItem from="1579383169949" duration="10589000" />
+      <workItem from="1579383169949" duration="13909000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConsultUsers - 2020.01.18 at 20h 03m 16s.xml">
-      <configuration name="ConsultUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultUsers - 2020.01.18 at 20h 04m 09s.xml">
-      <configuration name="ConsultUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultUsers - 2020.01.18 at 20h 05m 03s.xml">
-      <configuration name="ConsultUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultUsers - 2020.01.18 at 20h 05m 32s.xml">
-      <configuration name="ConsultUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultUsers - 2020.01.18 at 20h 06m 33s.xml">
-      <configuration name="ConsultUsers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCart - 2020.01.18 at 20h 08m 01s.xml">
       <configuration name="ShoppingCart" configurationId="JUnit" />
     </history-entry>
@@ -499,9 +495,24 @@
     <history-entry file="ConsultUsers - 2020.01.18 at 20h 34m 19s.xml">
       <configuration name="ConsultUsers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 20h 35m 42s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 21h 22m 05s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 21h 24m 04s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCart - 2020.01.18 at 21h 27m 55s.xml">
+      <configuration name="ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultUsers - 2020.01.18 at 21h 28m 56s.xml">
+      <configuration name="ConsultUsers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10589000" />
+    <option name="totallyTimeSpent" value="13909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -525,7 +536,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5567376" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4609929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,84 +557,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Get.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_users.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay/2.0.9/104c3b1782a604a7cdf25b24dbcfb65e8f6549f9/serenity-screenplay-2.0.9-sources.jar!/net/serenitybdd/screenplay/actors/OnStage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -631,10 +564,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/shopping_cart.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_users.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/AddProductException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/exceptions/OpenTheBrowserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/ProductName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/questions/TheProductName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/AddProductToShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/ConsultTheUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="261">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
@@ -645,41 +637,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/task/OpenTheBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/LinioHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ShoppingCartStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ConsultUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/runners/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/ShoppingCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/userinterfaces/SearchResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sophosolutions/www/models/RestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/questions/LastResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.0.4/baa061f99144d962bef459ee0df8a782555dc592/serenity-screenplay-rest-2.0.4-sources.jar!/net/serenitybdd/screenplay/rest/questions/ResponseConsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sophosolutions/www/stepdefinitions/ConsultUsersStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

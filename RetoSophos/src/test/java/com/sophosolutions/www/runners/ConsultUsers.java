@@ -1,10 +1,8 @@
 package com.sophosolutions.www.runners;
 
-import static cucumber.api.SnippetType.CAMELCASE;
 
 import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
-
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
