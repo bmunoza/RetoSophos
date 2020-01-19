@@ -7,11 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features="src/test/resources/features",
+        features="src/test/resources/features/shopping_cart.feature",
         glue="com.sophosolutions.www.stepdefinitions",
-        snippets= SnippetType.CAMELCASE,
-        monochrome = true,
-        dryRun = false)
+        snippets= SnippetType.CAMELCASE)
 
 public class ShoppingCart {
 }

@@ -21,10 +21,6 @@ public class ShoppingCartStepDefinitions {
 
     private LinioHomePage linioHomePage;
 
-    @Before
-    public void setTheStage() {
-        OnStage.setTheStage(new OnlineCast());
-    }
 
     @Given("^that (.*) is on the linio website$")
     public void thatBrayanIsOnTheLinioWebsite(String actor){

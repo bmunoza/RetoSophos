@@ -1,43 +1,45 @@
 package com.sophosolutions.www.stepdefinitions;
 
 
+import static com.sophosolutions.www.models.RestService.BASE_URL;
+import static com.sophosolutions.www.models.RestService.CONSULT_USER;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
-import static org.hamcrest.Matchers.hasItems;
+import static org.hamcrest.Matchers.equalTo;
+import com.sophosolutions.www.task.ConsultTheUser;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
-import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
-import net.serenitybdd.screenplay.rest.interactions.Get;
+import net.serenitybdd.screenplay.rest.abiities.CallAnApi;
 
 public class ConsultUsersStepDefinition {
+
     @Before
     public void prepareStage() {
         OnStage.setTheStage(new OnlineCast());
-        theActorCalled("Brayan").whoCan(CallAnApi.at("https://reqres.in"));
+        theActorCalled("Brayan").whoCan(CallAnApi.at(BASE_URL.toString()));
     }
 
-    @When("^consulting the second group of three users\\.$")
-    public void consultingTheSecondGroupOfThreeUsers() {
-        theActorInTheSpotlight().attemptsTo(Get.resource("/api/users?page=2"));
-
+    @When("^Pepito consults a user's name$")
+    public void pepitoConsultsAUserSName() {
+        theActorInTheSpotlight().attemptsTo(ConsultTheUser.withTheData(CONSULT_USER.toString()));
     }
 
-    @Then("^I should see the users$")
-    public void iShouldSeeTheUsers() {
+    @Then("^he should see that the full name is (.*) (.*)$")
+    public void heShouldSeeThatTheFullNameIsMafaldaPacocha(String firstName,String lastName) {
+
+        theActorInTheSpotlight().should(seeThatResponse(response -> response.statusCode(200)));
 
         theActorInTheSpotlight().should(seeThatResponse(
-                response -> response.statusCode(200)
-                        .body("data.last_name", hasItems("Holt", "Morris", "Ramos"))));
+                response -> response
+                        .body("result.first_name", equalTo(firstName))));
 
         theActorInTheSpotlight().should(seeThatResponse(
-                response -> response.statusCode(200).body("data.first_name", hasItems("Eve", "Charles", "Tracey"))));
-
-        theActorInTheSpotlight().should(seeThatResponse(response -> response.statusCode(204)));
+                response -> response
+                        .body("result.last_name",equalTo(lastName))));
     }
 
 }
